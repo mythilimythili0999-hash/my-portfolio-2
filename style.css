@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.nav-container{
+    justify-items: center;
+  justify-content: space-between;
+  display: flex;
+   
+}
+.nav-container h1:hover{
+     cursor: pointer;
+    color: rgb(186, 128, 240) ;
+}
+.nav-menu  {
+    display: flex;
+   list-style: none;
+   gap: 30px;
+padding-right: 40px;
+margin-top: 20px;
+
+}
+.nav-container h1{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.nav-menu li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-style: bold;
+    color: #00d4ff;
+    padding-left: 20px;
+
+}
+.navbar{
+   background: #1a1a2e;
+   color: white;
+   padding-bottom: 30px;
+}
+.hero-left{
+    width: 700px;
+    margin-left: 30px;
+}
+.hero-left h1{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.hero-left p{
+    margin-bottom: 25px;
+}
+.hero-left button{
+    padding: 15px;
+    border-radius: 16px;
+    margin-left: 8px;
+    background: #0f3460;
+
+}
+.hero-left a{
+    text-decoration: none;
+    font-style: italic;
+     font-size: medium;
+     color: white;
+}
+.hero-right img{
+    border-radius: 60%;
+    width: 300px;
+    padding-left: 30px;
+    margin-right: 50px;
+    margin-top: 27px;
+    
+}
+.hero{
+    display: flex;
+    background: #16213e;
+    color: white;
+    padding-bottom: 80px;
+    
+}
+
+.about{
+    padding-top: 60px;
+    margin-right: 30px;
+    color:#e94560;
+    font-size: large;
+}
+.about-left{
+    width:60%;
+    margin-left: 50px; 
+
+}
+.about-left p{
+    gap: 18px;
+    padding-top: 30px;
+    font-size: 18px;
+}
+.image2{
+  padding-left: 70px;
+  height: 600px;
+ 
+}
+.image2 img{
+ height: 300px;
+  border-radius: 30%;
+
+}
+.aboutme{
+    display: flex;  
+}
+.overall-about{
+    background: #0f0f0f;
+    color: white;
+   
+}
+ 
+.work{
+    padding-top: 40px;
+}
+.work h4{
+    padding-bottom: 18px;
+    color: #e94560;
+    font-size: 20px;
+}
+.work h2{
+    font: size 70px;
+    color: white;
+    padding-bottom: 80px;
+
+}
+.mywork{
+    background: #1a1a2e;
+}
+.first{
+    width: 270px;
+    border-width: 400px;
+    background: #16213e;
+    color: white;
+    border-radius: 20px;
+    
+}
+.first img{
+ width: 270px;
+ padding-bottom: 30px;
+ border-radius: 20px;
+}
+.first p{
+    padding-bottom: 20px;
+}
+.skill{
+    width: 70px;
+    background: #0f3460;
+    color: white;
+    border-color: #00d4ff;
+    border-radius: 30px;
+    display: flexbox;
+}
+.sourcecode{
+    width: 220px;
+    padding-top: 20px;
+    display: flex;
+    gap: 12px;
+    padding-bottom: 30px;
+   
+    
+}
+.button{
+    width: 120px;
+    padding: 8px;
+    background: #0f3460;
+    color: white;
+    border-radius: 10px;
+    margin-left: 10px;
+    
+}
+.project{
+    display: flex;
+   margin-left: 17%;
+   gap: 50px;
+   text-align: center;
+}
+.mywork{
+    padding-bottom: 70px;
+}
+.msg{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.msg h4{
+    color: #00d4ff;
+    padding-bottom: 10px;
+}
+
+.table {
+  max-width: 500px;
+  margin: 50px; 
+  padding: 30px; 
+  background-color: #16213e; 
+  border-radius: 8px;
+  margin-bottom: 0px;
+  
+  
+}
+
+.table label {
+  display: block; 
+  margin-bottom: 8px; 
+  color: white; 
+  font-weight: 600; 
+  font-size: 14px;
+}
+
+.table input,
+.table textarea {
+  width: 100%;
+  padding: 12px; 
+  margin-bottom: 20px; 
+  border: 1px solid #ddd; 
+  border-radius: 4px; 
+  font-size: 16px;
+  box-sizing: border-box; 
+}
+
+
+.table textarea {
+  min-height: 120px; 
+}
+
+.table button {
+  width: 100%; 
+  padding: 12px;
+  background-color: #e94560; 
+  color: white; 
+  border: none; 
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+}
+.work2{
+    background: #1a1a2e;
+    padding-bottom: 30px;
+}
+.info{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    justify-content: center;
+    gap: 30px;
+    background: #16213e;
+}
+.one {
+  width: 260px;
+  height: 70px;
+  background-color: #0f3460;
+  padding: 20px;
+  border: 2px solid #00d4ff;
+  border-radius: 10px;
+  color: white;
+}
+.one a{
+    color: white;
+    text-decoration: none;
+}
+.footer{
+   justify-items: center;
+   padding-bottom: 10px;
+   padding-top: 10px;
+   color: white;
+   background-color: #0f0f0f;
+}
+.one h4{
+    padding-bottom: 6px;
+}
